@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="row">
+                <input id="visorResultado" class="visorResultado" type="text">
+                <input id="visorPrincipal" class="visor" type="text">
+            </div>
+            <div class="row">
+                <button onclick="porcentagem()" class="button">%</button>
+                <button onclick="divisao()" class="button">/</button>
+                <button onclick="limparTela()" class="button">C</button>
+                <button onclick="apagarUltimo()" class="button"><</button>
+            </div>
+            <div class="row">
+                <button onclick="adicionar7()" class="button">7</button>
+                <button onclick="adicionar8()" class="button">8</button>
+                <button onclick="adicionar9()" class="button">9</button>
+                <button onclick="multiplicacao()" class="button">*</button>
+            </div>
+
+            <div class="row">
+                <button onclick="adicionar4()" class="button">4</button>
+                <button onclick="adicionar5()" class="button">5</button>
+                <button onclick="adicionar6()" class="button">6</button>
+                <button onclick="subtracao()" class="button">-</button>
+            </div>
+
+            <div class="row">
+                <button onclick="adicionar1()" class="button">1</button onclick="adicionar1()">
+                <button onclick="adicionar2()" class="button">2</button>
+                <button onclick="adicionar3()" class="button">3</button>
+                <button onclick="adicao()" class="button">+</button>
+            </div>
+
+            <div class="row">
+                <button onclick="mudarSinal()" class="button">+/-</button>
+                <button onclick="adicionar0()" class="button">0</button>
+                <button onclick="adicionarPonto()" class="button">,</button>
+                <button onclick="resultado()" class="button">=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
