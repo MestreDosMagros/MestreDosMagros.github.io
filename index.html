@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Meu estilos -->
+    <link href="./css/styles.css" rel="stylesheet">
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <title>Modelação Wenz</title>
+</head>
+
+<body>
+
+    <!-- Navegação -->
+    <section id="nav">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-3" id="mainNav">
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" href="#page-top">Modelação Wenz</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#servicos">Produtos e Serviços</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Galeria</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <!-- Carrossel -->
+    <section id="carousel pt-70">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 0"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Moldes em madeira</h1>
+                            <p>Moldes de madeira e compensados de alta qualidade e precisão</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Moldes em resina</h1>
+                            <p>Moldes em resina sintética altamente resistentes e precisos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Usinagem de madeira em router CNC</h1>
+                            <p>Usinagem com precisão de .2mm de peças em madeira de até 2.5x2.5 metros</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Usinagem de chapas de aço em router CNC</h1>
+                            <p>Usinagem com precisão de peças metálicas de até 15mm de espessura</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Ferramentaria</h1>
+                            <p>Serviços de consultoria e execução para desenvolver o ferramental sob medida para nossos
+                                clientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introdução -->
+    <section class="page-section" id="sobre">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center text-light">
+                    <h2 class="mt-0">Nós fazemos do seu jeito</h2>
+                    <hr class="divider divider-light" />
+                    <p class=" mb-4">Fabricamos moldes e ferramental para nossos clientes a mais de 10 anos, entregando
+                        um serviço
+                        com qualidade e precisão excelentes, sempre prezando pela entrega aos nossos clientes, com as
+                        melhores
+                        matérias primas</p>
+                    <a class="btn btn-light btn-xl btn-seemore" href="#servicos">Conheça nossos produtos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos e serviços -->
+    <section class="page-section" id="servicos">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Produtos e serviços</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Modelos para fundição</h3>
+                        <p class="text-muted mb-0">Fabricamos e desenvolvemos modelos para fundição de pequeno a grande
+                            porte em
+                            diversos materiais</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Caixas de macho</h3>
+                        <p class="text-muted mb-0">Fabricamos caixas de macho de todos os tamanhos com a qualidade e
+                            precisão que você
+                            precisa</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Prototipagem</h3>
+                        <p class="text-muted mb-0">Oferecemos serviços de consultoria e fabricação de protótipos para a
+                            aplicação que
+                            você necessita</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Moldes de injeção</h3>
+                        <p class="text-muted mb-0">Fabricamos moldes de injeção com precisão idempendente da
+                            complexidade do seu
+                            projeto</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Cópia de peças</h3>
+                        <p class="text-muted mb-0">Copiamos peças que não estão mais no mercado para reposição, além de
+                            prestar também
+                            a manutenção em moldes já utilizados conforme a sua necessidade</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Corte e usinagem de madeira e alumínio em máquinas router CNC</h3>
+                        <p class="text-muted mb-0">Oferecemos serviços de corte e usinagem de madeira de peças de todos
+                            os tamanhos
+                            com precisão, rapidez e qualidade</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2">
+                            <img class="icon" src="./assets/industrial-robot.png">
+                        </div>
+                        <h3 class="h4 mb-2">Corte e usinagem de aço em máquinas router CNC</h3>
+                        <p class="text-muted mb-0">Oferecemos serviços de corte e usinagem com plasma CNC de chapas de
+                            aço de até 30mm
+                            com precisão, rapidez e qualidade</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de fotos -->
+    <section class="page-section pt-0" id="portfolio">
+        <div class="container">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Galeria de fotos</h2>
+                    <hr class="divider" />
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 1</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 2</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 4</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 5</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/industrial-robot.png" title="Project Name">
+                            <img class="img-fluid" src="assets/industrial-robot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Foto 6</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Entre em contato pelo WhatsApp!</h2>
+            <a href="https://wa.me/5547988759441/?text=Ol%C3%A1%2C+fiquei+interessado+nos+servi%C3%A7os+da+Modela%C3%A7%C3%A3o+Wenz+e+gostaria+de+entrar+em+contato." target="_blank">
+                <img class="icon icon-wpp" src="./assets/whatsapp.png">
+            </a>
+        </div>
+    </section>
+
+    <!-- Quem somos / Missão, Visão e Valores -->
+    <section class="page-section" id="quemsomos">
+        <div class="container marketing">
+            <div class="row featurette">
+                <div class="container-fluid">
+                    <h2 class="text-center mt-0">Quem somos</h2>
+                    <hr class="divider">
+                </div>
+            </div>
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Missão</h2>
+                    <p class="text-muted">Some great placeholder content for the first featurette here. Imagine some exciting
+                        prose here.
+                    </p>
+                </div>
+                <div class="col-md-5 featurette-img">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="divider divider-dark featurette">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Visão</h2>
+                    <p class="text-muted">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how this
+                        layout would work with some actual real-world content in place.</p>
+                </div>
+                <div class="col-md-5 order-md-1 featurette-img">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+
+                </div>
+            </div>
+
+            <hr class="divider divider-dark featurette">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Valores</h2>
+                    <p class="text-muted">And yes, this is the last block of representative placeholder content. Again, not
+                        really
+                        intended to be actually read, simply here to give you a better view of what this would look like
+                        with some
+                        actual content. Your content.</p>
+                </div>
+                <div class="col-md-5 featurette-img">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                            dy=".3em">500x500</text>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="page-section bg-dark" id="contato">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0 text-light ">Vamos entrar em contato!</h2>
+                    <hr class="divider" />
+                    <h5 class="text-light mb-5">Venha fazer um orçamento com a gente</h5>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-4 col-xl-6 text-center contact">
+                    <a href="https://wa.me/5547988759441/?text=Ol%C3%A1%2C+fiquei+interessado+nos+servi%C3%A7os+da+Modela%C3%A7%C3%A3o+Wenz+e+gostaria+de+entrar+em+contato.">
+                        <img class="icon" src="./assets/whatsapp (1).png">
+                    </a>
+                    <a href="mailto:daniel.vieck@outlook.com?subject=Contato&body=Olá, fiquei interessado nos serviços da Modelação Wenz e gostaria de entrar em contato.">
+                        <img class="icon" src="./assets/envelope.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-4 col-xl-6 text-center text-light ">
+                    <p>Rua Salseiro, 100 Belchior Central - Gaspar-SC, Brasil</p>
+                    <p>+55 (47) 98875-9441</p>
+                    <p>daniel.vieck@outlook.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-light">Copyright© 2021 Modelação Wenz. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="./js/scripts.js" type="text/javascript"></script>
+    <!-- Boostrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+</body>
+
+</html>
